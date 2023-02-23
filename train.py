@@ -84,7 +84,6 @@ for epoch in range(EPOCHS):
         # print(fake.shape)
 
         # Descriminator operation
-    
         if fake.shape!=real.shape:
             print("Shape of true data and fake data is not same")
             exit()
